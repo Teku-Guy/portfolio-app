@@ -7,27 +7,41 @@ import profille from '../../assets/images/gm.jpg'
 function About() {
 
     return (
-        <section className="about pt-5 cta">
-          <div className="">
-          <Container>
-            <Row>
-              <Col className="md-6 title">
-                <h1 className="text-end">Gustavo Muratalla</h1>
-                <h2 className="text-end">Developer // Musician</h2>
-              </Col>
-              <Col className="md-6">
-                <img src={profille} alt="Profile of Gustavo Muratalla" className="profile-image"/>
-              </Col>
-            </Row>
-          </Container>
+        <section className="about">
+          <div className="cta pt-5 blur">
+            <Container>
+              <Row>
+                <Col className="md-6 title-i">
+                  <h1 className="text-end">Gustavo Muratalla</h1>
+                  <h2 className="text-end">Developer // Musician</h2>
+                </Col>
+                <Col className="md-6">
+                  <img src={profille} alt="Profile of Gustavo Muratalla" className="profile-image"/>
+                </Col>
+              </Row>
+            </Container>
           </div>
           <div id="about-section" className="pt-5">
             <Container>
               <Row className="justify-content-center">
-                <Col>
-                  <article className="mb-5">
-                    <p>Hello! My name is Gustavo Muratalla Jr. Or you can call me Goose or Gus for short. I been coding for a solid 5 years. Started in when I was a frehsman in HighSchool I took AP Computer Science my Sophmore year and ever since then i been coding in Java. From their I decide to expand my knoweldge and been programing in C#, C++, JavaScript, and Python. I also have dabled with some other frame works like Laravel, ReactJs, and Jekyll. Feel Free to check out my projects on my github, or linkedin below...</p>
-                  </article>
+                <Col fluid as="article" className="mb-5">
+                    <h2 className="article-header">Breif History . . .</h2>
+                    <p>
+                      Hello! My name is Gustavo Muratalla Jr. I been coding for a solid 5-6 years. I disembarked on my coding journey 
+                      when I was an incomming Frehsman in Dos Pueblos High School. I was inspired by a neighboorhood friend to pick up 
+                      coding since I had developed a passion for computers. I started out taking the "Intro to Computer Science" course 
+                      first to see what I could learn but after a the first semester I found that my knoweldge and skills where already t
+                      o advance for the class but my teacher recommended me to finish the course and get the credits. So I followed 
+                      through. 
+                    </p>
+                    <p>
+                      In my Sophmore year of High School I had decided to take the "AP Computer Science" and ever since then, I fell in love
+                      with coding. Even thought this course focused on programing language Java. I learn most of the major concepts of "OOP" 
+                      ( or Object Orient Programming). From their I decide to expand my knoweldge and been learning how to program in C#, C++, 
+                      JavaScript, Python, and a bunch of other Programming Languages. 
+                      I also have dabled with some other frame works like Laravel, ReactJs, Handlerbars and Jekyll. Feel Free to check out my projects 
+                      on <a className="link-light" href="https://github.com/teku-guy" target="_blank"> my github.</a>
+                    </p>
                 </Col>
               </Row>
             </Container>

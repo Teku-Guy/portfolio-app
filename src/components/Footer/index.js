@@ -25,7 +25,7 @@ function Footer() {
                     </Anchor>
                 </section>
             </Container>
-            <div className="p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)'}}>
+            <div className="cp p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)'}}>
                 © 2021 Copyright: <Anchor href={links.github} target="_blank"> Gustavo Muratalla </Anchor>
             </div>
         </footer>
