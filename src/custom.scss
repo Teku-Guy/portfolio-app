@@ -54,7 +54,17 @@ $body-bg: #000;
   background-position: center -150px;
   background-repeat: no-repeat;
   background-size: cover;
-  
+  &-contact {
+
+    h1 {
+      color: #000;
+    }
+  }
+}
+
+.contact-info {
+  background-color: #EAE2B7;
+  min-height: 700px;
 }
 
 .profile-image {

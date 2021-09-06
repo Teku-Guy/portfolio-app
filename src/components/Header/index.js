@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { HashRouter as Router, Switch, Route, Redirect } from "react-router-dom";
+import { HashRouter as Router, Switch, Route, Redirect, useLocation } from "react-router-dom";
 import About from "../About";
 import Contact from "../Contact";
 import NavBar from "../NavBar";
@@ -12,6 +12,13 @@ function Header() {
         console.log(eventKey);
         setActive(eventKey)
     };
+    
+    // if(location.pathname === "/contact"){
+    //     alert("Contact selected");
+    // }
+    // const locate = () => {
+        console.log(window.location.pathname);
+    // }
 
     //return JSX
     return (
