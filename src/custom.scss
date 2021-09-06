@@ -13,8 +13,20 @@ $body-bg: #000;
          url('./assets/fonts/Epilogue-VariableFont_wght.ttf') format('ttf'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+:root {
+  /* from coolers: https://coolors.co/003049-1b2f45-362e41-6b2c39-d62828-e75414-f77f00-fcbf49-eae2b7 */
+  --prussian-blue: #003049;
+  --flame:#E75414;
+  --lemon: #EAE2B7;
+  --cg-red: #d9403a;
+  --dark-purple: #3D2A39;
+  --catawba: rgba(101, 45, 58, 0.5);
+  --platinum:#E8E9EB;
+  --onyx:#313638;
+}
+
 .bg-blue{
-  background-color: #003049;
+  background-color: var(--prussian-blue);
 }
 
 .icons {
@@ -63,7 +75,7 @@ $body-bg: #000;
 }
 
 .contact-info {
-  background-color: #EAE2B7;
+  background-color: var(--lemon);
   min-height: 700px;
 }
 
@@ -75,7 +87,7 @@ $body-bg: #000;
 .about {
   #about-section {
     font-size: 22px;
-    background-color: #370617;
+    background-color: var(--catawba);
     article {
       font-style: normal;
       font-family: 'Epilogue', Helvetica, Arial, sans-serif;
@@ -90,4 +102,65 @@ nav{
   }
   height:auto;
   padding: auto;
+}
+
+.portfolio{
+  background-color: var(--dark-purple);
+}
+
+.card {
+  background-color: var(--cg-red);
+  border-radius: 5px;
+  height: 400px;
+  margin: 2rem;
+  position: relative;
+  width: 400px;
+  box-shadow: 0 2px 2px var(--onyx), 0 6px 12px var(--onyx);
+}
+
+.card {
+  .img-container {
+    height: 75%;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 10px;
+    background-color: var(--cg-red);
+  }
+}
+
+.card {
+  .img-container { 
+    img {
+      width: 100%;
+      padding: 25px;
+      margin-bottom: 20px;
+      background-color: var(--cg-red);
+    }
+  }
+}
+
+.card {
+  .content {
+    font-size: 18px;
+    background-color: var(--cg-red);
+    color: var(--prussian-blue);
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+.wrapper {
+  padding-top: 50px;
+  justify-content: space-around;
+  height: 100%;
+  display: flex;
+  overflow: auto;
+  flex-flow: row wrap;
+  padding: 10px;
+  align-content: flex-start;
+}
+
+#card-title {
+  margin-top: 10px;
+  color: var(--onyx);
 }

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "budget tracker",
+    "name": "Budget Tracker",
     "image": "https://github.com/jpd61/jpd-react-portfolio/raw/master/src/assets/images/pwabudget.PNG",
     "github": "https://github.com/Teku-Guy/Budget-Tracker",
     "deploy": "https://budget-tracker-67.herokuapp.com/",
