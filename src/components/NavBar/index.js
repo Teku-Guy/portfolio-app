@@ -12,9 +12,9 @@ function NavBar(props) {
     
     //return JSX
     return (
-      <Navbar bg="dark" variant="dark" expand="sm">
+      <Navbar bg="blue" variant="dark " expand="sm">
         <Container fluid>
-          <Navbar.Brand href="#home">Gustavo Muratalla</Navbar.Brand>
+          <Navbar.Brand className="brand" href="#home">Gustavo Muratalla</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbar-nav" />
           <Navbar.Collapse id="navbar-nav" className="justify-content-end text-center">
             <Nav activeKey={active} onSelect={handleSelect}>

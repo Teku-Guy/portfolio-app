@@ -13,6 +13,10 @@ $body-bg: #000;
          url('./assets/fonts/Epilogue-VariableFont_wght.ttf') format('ttf'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+.bg-blue{
+  background-color: #003049;
+}
+
 .icons {
     a {
         border-radius: 50%;
@@ -68,4 +72,12 @@ $body-bg: #000;
       color: azure;
     }
   }
+}
+nav{
+  font-size: 35px;
+  .brand{
+    font-size: 35px;
+  }
+  height:auto;
+  padding: auto;
 }

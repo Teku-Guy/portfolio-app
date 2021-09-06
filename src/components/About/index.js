@@ -9,7 +9,7 @@ function About() {
     return (
         <section className="about">
           <div className="cta pt-5 blur">
-            <Container>
+            <Container >
               <Row>
                 <Col className="md-6 title-i">
                   <h1 className="text-end">Gustavo Muratalla</h1>
@@ -22,10 +22,12 @@ function About() {
             </Container>
           </div>
           <div id="about-section" className="pt-5">
-            <Container>
+            <Container fluid="xl">
               <Row className="justify-content-center">
-                <Col fluid as="article" className="mb-5">
+                <Col>
+                  <article className="mb-5">
                     <h2 className="article-header">Breif History . . .</h2>
+                    <hr/>
                     <p>
                       Hello! My name is Gustavo Muratalla Jr. I been coding for a solid 5-6 years. I disembarked on my coding journey 
                       when I was an incomming Frehsman in Dos Pueblos High School. I was inspired by a neighboorhood friend to pick up 
@@ -40,8 +42,9 @@ function About() {
                       ( or Object Orient Programming). From their I decide to expand my knoweldge and been learning how to program in C#, C++, 
                       JavaScript, Python, and a bunch of other Programming Languages. 
                       I also have dabled with some other frame works like Laravel, ReactJs, Handlerbars and Jekyll. Feel Free to check out my projects 
-                      on <a className="link-light" href="https://github.com/teku-guy" target="_blank"> my github.</a>
+                      on <a className="link-light" href="https://github.com/teku-guy"  rel="noreferrer" target="_blank"> my github.</a>
                     </p>
+                  </article>
                 </Col>
               </Row>
             </Container>
