@@ -11,7 +11,7 @@ function Footer() {
 
     //return JSX
     return (
-        <footer className="fixed-bottom bg-dark text-center text-white footer">
+        <footer className="bg-dark text-center text-white  clear-top">
             <Container fluid className="p-4 pb-0">
                 <section className="icons mb-4">
                     <Anchor className="btn btn-outline-light btn-floating m-1" href={links.twitter} target="_blank" role="button" >
