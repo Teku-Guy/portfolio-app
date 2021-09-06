@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { HashRouter as Router, Switch, Route, Redirect, useLocation } from "react-router-dom";
+import { HashRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 import About from "../About";
 import Contact from "../Contact";
 import NavBar from "../NavBar";
@@ -8,17 +8,10 @@ import Resume from "../Resume";
 
 function Header() {
     const [active, setActive] = useState(1);
-    const handleSelect = (eventKey) => {
-        console.log(eventKey);
-        setActive(eventKey)
+    const handleSelect = (key) => {
+        console.log(key);
+        setActive(key)
     };
-    
-    // if(location.pathname === "/contact"){
-    //     alert("Contact selected");
-    // }
-    // const locate = () => {
-        console.log(window.location.pathname);
-    // }
 
     //return JSX
     return (

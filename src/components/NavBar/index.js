@@ -17,7 +17,7 @@ function NavBar(props) {
           <Navbar.Brand className="brand" href="#home">Gustavo Muratalla</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbar-nav" />
           <Navbar.Collapse id="navbar-nav" className="justify-content-end text-center">
-            <Nav activeKey={active} onSelect={handleSelect}>
+            <Nav active={active} onSelect={handleSelect}>
               <LinkContainer to="/about">
                 <Nav.Link eventKey="1">About Me</Nav.Link>
               </LinkContainer>
