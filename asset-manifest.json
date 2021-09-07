@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio-app/static/css/main.8b05ee36.chunk.css",
-    "main.js": "/portfolio-app/static/js/main.ac3f17a3.chunk.js",
-    "main.js.map": "/portfolio-app/static/js/main.ac3f17a3.chunk.js.map",
-    "runtime-main.js": "/portfolio-app/static/js/runtime-main.e05d1b99.js",
-    "runtime-main.js.map": "/portfolio-app/static/js/runtime-main.e05d1b99.js.map",
-    "static/js/2.20322630.chunk.js": "/portfolio-app/static/js/2.20322630.chunk.js",
-    "static/js/2.20322630.chunk.js.map": "/portfolio-app/static/js/2.20322630.chunk.js.map",
-    "static/js/3.3e06b7e6.chunk.js": "/portfolio-app/static/js/3.3e06b7e6.chunk.js",
-    "static/js/3.3e06b7e6.chunk.js.map": "/portfolio-app/static/js/3.3e06b7e6.chunk.js.map",
+    "main.css": "/portfolio-app/static/css/main.9327a1d6.chunk.css",
+    "main.js": "/portfolio-app/static/js/main.b24aa16f.chunk.js",
+    "main.js.map": "/portfolio-app/static/js/main.b24aa16f.chunk.js.map",
+    "runtime-main.js": "/portfolio-app/static/js/runtime-main.0e6c3c2a.js",
+    "runtime-main.js.map": "/portfolio-app/static/js/runtime-main.0e6c3c2a.js.map",
+    "static/js/2.952612d1.chunk.js": "/portfolio-app/static/js/2.952612d1.chunk.js",
+    "static/js/2.952612d1.chunk.js.map": "/portfolio-app/static/js/2.952612d1.chunk.js.map",
+    "static/js/3.71a9e2ae.chunk.js": "/portfolio-app/static/js/3.71a9e2ae.chunk.js",
+    "static/js/3.71a9e2ae.chunk.js.map": "/portfolio-app/static/js/3.71a9e2ae.chunk.js.map",
     "index.html": "/portfolio-app/index.html",
-    "static/css/main.8b05ee36.chunk.css.map": "/portfolio-app/static/css/main.8b05ee36.chunk.css.map",
-    "static/js/2.20322630.chunk.js.LICENSE.txt": "/portfolio-app/static/js/2.20322630.chunk.js.LICENSE.txt",
+    "static/css/main.9327a1d6.chunk.css.map": "/portfolio-app/static/css/main.9327a1d6.chunk.css.map",
+    "static/js/2.952612d1.chunk.js.LICENSE.txt": "/portfolio-app/static/js/2.952612d1.chunk.js.LICENSE.txt",
     "static/media/custom.scss": "/portfolio-app/static/media/cta.e2aec198.png",
     "static/media/gm.fc920f75.jpg": "/portfolio-app/static/media/gm.fc920f75.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e05d1b99.js",
-    "static/js/2.20322630.chunk.js",
-    "static/css/main.8b05ee36.chunk.css",
-    "static/js/main.ac3f17a3.chunk.js"
+    "static/js/runtime-main.0e6c3c2a.js",
+    "static/js/2.952612d1.chunk.js",
+    "static/css/main.9327a1d6.chunk.css",
+    "static/js/main.b24aa16f.chunk.js"
   ]
 }
