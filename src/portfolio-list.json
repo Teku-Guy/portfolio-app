@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Work Day Schedular",
-    "image": "",
+    "image": "https://github.com/teku-guy/portfolio-app/raw/main/src/assets/images/wds.PNG",
     "github": "https://github.com/Teku-Guy/WorkDayScheduler",
     "deploy": "https://teku-guy.github.io/WorkDayScheduler/",
     "topics": "HTML, Javascript, Bootstrap, CSS, jQuery, Moment"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Taskmaster",
-    "image": "",
+    "image": "https://github.com/teku-guy/portfolio-app/raw/main/src/assets/images/taskmaster.PNG",
     "github": "https://github.com/Teku-Guy/taskmaster-pro",
     "deploy": "https://teku-guy.github.io/taskmaster-pro/",
     "topics": "HTML, Javascript, CSS"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "Taskinator",
-    "image": "",
+    "image": "https://github.com/teku-guy/portfolio-app/raw/main/src/assets/images/taskinator.PNG",
     "github": "https://github.com/Teku-Guy/Taskinator",
     "deploy": "https://teku-guy.github.io/Taskinator/",
     "topics": "HTML, Javascript, CSS"

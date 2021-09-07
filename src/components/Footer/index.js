@@ -1,12 +1,13 @@
 import React from "react";
 import { Container, Anchor } from "react-bootstrap";
-import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaTwitter, FaStackOverflow } from "react-icons/fa";
 
 function Footer() {
     const links = {
         twitter: "https://twitter.com/teku_guy",
         linkedIn: "https://www.linkedin.com/in/gustavo-muratalla/",
-        github: "https://github.com/teku-guy"
+        github: "https://github.com/teku-guy",
+        stack: "https://stackoverflow.com/users/5813202/gustavo-muratalla"
     }
 
     //return JSX
@@ -23,6 +24,10 @@ function Footer() {
                     <Anchor className="btn btn-outline-light btn-floating m-1" href={links.github} target="_blank"  role="button">
                         <FaGithub />
                     </Anchor>
+                    <Anchor className="btn btn-outline-light btn-floating m-1" href={links.stack} target="_blank"  role="button">
+                        <FaStackOverflow />
+                    </Anchor>
+                    
                 </section>
             </Container>
             <div className="cp p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)'}}>

@@ -187,3 +187,18 @@ nav{
   text-decoration: none;
   font-weight: normal;
 }
+
+.resume{
+  background-color:var(--flame);
+  height: 600px;
+  hr{
+    border: 2px solid #000;
+    opacity: .60;
+  }
+  .title{
+    color: #000
+  }
+  #front-back{
+    text-align: center;
+  }
+}
