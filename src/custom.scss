@@ -202,3 +202,18 @@ nav{
     text-align: center;
   }
 }
+
+.contact-form {
+  background-color: rgba(0,0,0,0.15);
+  padding: 1.5rem;
+  margin-right: 0;
+  margin-left: 0;
+  border-width: 1px;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+  border-radius: .8rem;
+  .form-control{
+    @extend .form-control;
+    background-color: var(--platinum)
+  }
+}

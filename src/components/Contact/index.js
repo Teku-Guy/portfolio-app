@@ -1,7 +1,40 @@
-import React from "react";
+import React, { useState } from 'react';
 import { Col, Form, Row, Button, Container } from "react-bootstrap";
+import { validateEmail, capitalizeFirstLetter } from '../../utils/helpers';
+import { IoAlertCircleOutline  } from 'react-icons/io5'
 
 function Contact() {
+  const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+  const [errorMessage, setErrorMessage] = useState('');
+  const { name, email, message } = formState;
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (!errorMessage) {
+      console.log('Submit Form', formState);
+    }
+  };
+
+  const handleChange = (e) => {
+    if (e.target.name === 'email') {
+      const isValid = validateEmail(e.target.value);
+      if (!isValid) {
+        setErrorMessage('Your Email is invalid.');
+      } else {
+        setErrorMessage('');
+      }
+    } else {
+      if (!e.target.value.length) {
+        setErrorMessage(`${capitalizeFirstLetter(e.target.name)} is required.`);
+      } else {
+        setErrorMessage('');
+      }
+    }
+    if (!errorMessage) {
+      setFormState({ ...formState, [e.target.name]: e.target.value });
+      console.log('Handle Form', formState);
+    }
+  };
 
     return (
       <section className="contact-info py-5">
@@ -32,25 +65,30 @@ function Contact() {
               </Col>
             </Col>
             <Col md="4">
-              <Form>
+              <Form className="contact-form" onSubmit={handleSubmit}>
                 <Row>
                   <Col md="6">
                     <Form.Group className="mb-3" controlId="contact-name">
                       <Form.Label>Name:</Form.Label>
-                      <Form.Control type="text" placeholder="John Doe" />
+                      <Form.Control type="text" name="name" placeholder="John Doe" defaultValue={name} onBlur={handleChange} />
                     </Form.Group>
                   </Col>
                   <Col md="6">
                   <Form.Group className="mb-3" controlId="contact-email">
                     <Form.Label>Email:</Form.Label>
-                    <Form.Control type="email" placeholder="name@example.com" />
+                    <Form.Control type="email" name="email" placeholder="name@example.com" defaultValue={email} onBlur={handleChange}/>
                   </Form.Group>
                   </Col>
                 </Row>
                 <Form.Group className="mb-3" controlId="message-content">
                     <Form.Label>Message:</Form.Label>
-                    <Form.Control as="textarea" rows={5} />
+                    <Form.Control as="textarea" name="message" rows={5} defaultValue={message}  onBlur={handleChange} />
                 </Form.Group>
+                {errorMessage && (
+                  <div class="alert alert-danger" role="alert">
+                    <IoAlertCircleOutline /> {errorMessage}
+                  </div>
+                )}
                 <Button variant="primary" type="submit">Submit</Button>
               </Form>
             </Col>
