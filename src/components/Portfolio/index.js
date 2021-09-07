@@ -11,9 +11,11 @@ function Portfolio() {
 
   return (
     <section className="portfolio pt-5">
-      <Container>
+      <Container fluid>
         <h1 className="title">Portfolio</h1>
         <hr />
+        
+      </Container>
         <Wrapper id="card-data">
         {portfolio.map((project) => (
            <ProjectCards 
@@ -26,7 +28,6 @@ function Portfolio() {
            />
         ))}
         </Wrapper>
-      </Container>
     </section>
   );
 }

@@ -28,6 +28,9 @@ $body-bg: #000;
 .bg-blue{
   background-color: var(--prussian-blue);
 }
+.blue{
+  background-color: var(--prussian-blue);
+}
 
 .icons {
     a {
@@ -163,4 +166,24 @@ nav{
 #card-title {
   margin-top: 10px;
   color: var(--onyx);
+}
+
+.icons {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6em;
+  .dark {
+    color: black;
+  }
+  .project-icon {
+    color: var(--prussian-blue);
+  }
+}
+
+.tag-toggle {
+  color: var(--prussian-blue);
+  text-decoration: none;
+  font-weight: normal;
 }
