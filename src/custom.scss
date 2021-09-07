@@ -191,12 +191,17 @@ nav{
 .resume{
   background-color:var(--flame);
   height: 600px;
+  color: #000;
+  .container{
+    padding: 1.5rem 1rem;
+    border-radius: 1.5rem;
+  }
   hr{
     border: 2px solid #000;
     opacity: .60;
   }
   .title{
-    color: #000
+    color: #000;
   }
   #front-back{
     text-align: center;
