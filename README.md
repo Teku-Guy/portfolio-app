@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Portfolio React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Deployed Site](https://teku-guy.github.io/portfolio-app/)
 
 ## Available Scripts
 
