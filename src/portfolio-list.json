@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 2,
     "name": "Budget Tracker",
     "image": "https://github.com/teku-guy/portfolio-app/raw/main/src/assets/images/budget.png",
     "github": "https://github.com/Teku-Guy/Budget-Tracker",
@@ -8,7 +8,7 @@
     "topics": "javascript, pwa, indexedDB, mongoDB, mongoose, compression, morgan, nodemon, express"
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Weather Dashboard",
     "image": "https://raw.githubusercontent.com/Teku-Guy/portfolio-app/main/src/assets/images/wd.png",
     "github": "https://github.com/Teku-Guy/Weather-Dashboard",
@@ -16,7 +16,7 @@
     "topics": "javascript, jQuery, html, bootstrap, moment, API"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Work Day Schedular",
     "image": "https://raw.githubusercontent.com/Teku-Guy/portfolio-app/main/src/assets/images/wds.png",
     "github": "https://github.com/Teku-Guy/WorkDayScheduler",
@@ -24,7 +24,7 @@
     "topics": "HTML, Javascript, Bootstrap, CSS, jQuery, Moment"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Taskmaster",
     "image": "https://raw.githubusercontent.com/Teku-Guy/portfolio-app/main/src/assets/images/taskmaster.png",
     "github": "https://github.com/Teku-Guy/taskmaster-pro",
@@ -32,7 +32,7 @@
     "topics": "HTML, Javascript, CSS"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Taskinator",
     "image": "https://github.com/teku-guy/portfolio-app/raw/main/src/assets/images/taskinator.png",
     "github": "https://github.com/Teku-Guy/Taskinator",
@@ -46,5 +46,13 @@
     "github": "https://github.com/Teku-Guy/Code-Quiz",
     "deploy": "https://teku-guy.github.io/Code-Quiz/",
     "topics": "HTML, Bootstrap, CSS, Javascript"
+  },
+  {
+    "id": 1,
+    "name": "Hotel Redux",
+    "image": "https://raw.githubusercontent.com/mcewball13/hotel-redux/main/client/src/assets/preview-img.jpg",
+    "github": "https://github.com/mcewball13/hotel-redux",
+    "deploy": "https://pacific-journey-96922.herokuapp.com/",
+    "topics": "MongoDB, ReactJS, Javascript, Express, Apollo GraphQl, Mongoose, NodeJS, Material Ui"
   }
 ]
