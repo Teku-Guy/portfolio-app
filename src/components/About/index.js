@@ -26,7 +26,7 @@ function About() {
               <Row className="justify-content-center">
                 <Col>
                   <article className="mb-5">
-                    <h2 className="article-header">Breif History . . .</h2>
+                    <h2 className="article-header">About Me . . .</h2>
                     <hr/>
                     <p>
                       Hello! My name is Gustavo Muratalla Jr. I have been coding for a solid 5-6 years. 

@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
+import resumePdf from "../../assets/resume.pdf";
 
 function Resume() {
 
@@ -26,7 +27,7 @@ function Resume() {
                     </Col>
                     <Col> 
                         <div class="justify-content-center mt-5">
-                            <p className="text-center">Donload my full <a href="https://www.linkedin.com/in/gustavo-muratalla/" style={{ color: '#003049' }} className="link text-decoration-none">resume</a> (PDF Comming Soon!)</p>
+                            <p className="text-center">Donload my full <a href={resumePdf} style={{ color: '#003049' }} className="link text-decoration-none" download target="blank"> resume</a></p>
                         </div>
                     </Col>
                 </Row>
