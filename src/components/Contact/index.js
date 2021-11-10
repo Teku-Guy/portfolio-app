@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Col, Form, Row, Button, Container } from "react-bootstrap";
+import { Col, Form, Row, Button, Container, Anchor } from "react-bootstrap";
 import { validateEmail, capitalizeFirstLetter } from '../../utils/helpers';
 import { IoAlertCircleOutline  } from 'react-icons/io5'
 
@@ -62,34 +62,32 @@ function Contact() {
                 <p>
                   I'm always looking to work on new projects or tasks.
                 </p>
+                <p>
+                  Feel free to fill out the form or email directly to 
+                  <Anchor href="mailto:gusmuratalla@gmail.com" target="_blank" className="email-contact"> gusmuratalla@gmail.com</Anchor>
+                </p>
               </Col>
             </Col>
             <Col md="4">
-              <Form className="contact-form" onSubmit={handleSubmit}>
+              <Form className="contact-form" action="mailto:gusmuratalla@gmail.com" method="get" enctype="text/plain"  >
                 <Row>
-                  <Col md="6">
-                    <Form.Group className="mb-3" controlId="contact-name">
-                      <Form.Label>Name:</Form.Label>
-                      <Form.Control type="text" name="name" placeholder="John Doe" defaultValue={name} onBlur={handleChange} />
-                    </Form.Group>
-                  </Col>
-                  <Col md="6">
+                  <Col md="12">
                   <Form.Group className="mb-3" controlId="contact-email">
-                    <Form.Label>Email:</Form.Label>
-                    <Form.Control type="email" name="email" placeholder="name@example.com" defaultValue={email} onBlur={handleChange}/>
+                    <Form.Label>Subject:</Form.Label>
+                    <Form.Control type="text" name="subject" placeholder="New Project Idea" defaultValue={email} onBlur={handleChange}/>
                   </Form.Group>
                   </Col>
                 </Row>
                 <Form.Group className="mb-3" controlId="message-content">
                     <Form.Label>Message:</Form.Label>
-                    <Form.Control as="textarea" name="message" rows={5} defaultValue={message}  onBlur={handleChange} />
+                    <Form.Control as="textarea" name="body" rows={5} defaultValue={message} placeholder="Details and Contact info" onBlur={handleChange} />
                 </Form.Group>
                 {errorMessage && (
                   <div class="alert alert-danger" role="alert">
                     <IoAlertCircleOutline /> {errorMessage}
                   </div>
                 )}
-                <Button variant="primary" type="submit">Submit</Button>
+                <Button variant="primary" type="submit" value="send">Submit</Button>
               </Form>
             </Col>
           </Row>

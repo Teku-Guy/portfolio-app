@@ -1,4 +1,13 @@
 [
+  
+  {
+    "id": 1,
+    "name": "Hotel Redux",
+    "image": "https://raw.githubusercontent.com/mcewball13/hotel-redux/main/client/src/assets/preview-img.jpg",
+    "github": "https://github.com/mcewball13/hotel-redux",
+    "deploy": "https://pacific-journey-96922.herokuapp.com/",
+    "topics": "MongoDB, ReactJS, Javascript, Express, Apollo GraphQl, Mongoose, NodeJS, Material Ui"
+  },
   {
     "id": 2,
     "name": "Budget Tracker",
@@ -46,13 +55,5 @@
     "github": "https://github.com/Teku-Guy/Code-Quiz",
     "deploy": "https://teku-guy.github.io/Code-Quiz/",
     "topics": "HTML, Bootstrap, CSS, Javascript"
-  },
-  {
-    "id": 1,
-    "name": "Hotel Redux",
-    "image": "https://raw.githubusercontent.com/mcewball13/hotel-redux/main/client/src/assets/preview-img.jpg",
-    "github": "https://github.com/mcewball13/hotel-redux",
-    "deploy": "https://pacific-journey-96922.herokuapp.com/",
-    "topics": "MongoDB, ReactJS, Javascript, Express, Apollo GraphQl, Mongoose, NodeJS, Material Ui"
   }
 ]

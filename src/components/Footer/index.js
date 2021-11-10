@@ -31,6 +31,8 @@ function Footer() {
                 </section>
             </Container>
             <div className="cp p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)'}}>
+                <Anchor href="mailto:gusmuratalla@gmail.com" target="_blank" style={{textDecoration: 'none', color: "white", fontSize: "17px"}}>  gusmuratalla@gmail.com </Anchor>
+                <br />
                 © 2021 Copyright: <Anchor href={links.github} target="_blank"> Gustavo Muratalla </Anchor>
             </div>
         </footer>
