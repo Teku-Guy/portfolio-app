@@ -29,19 +29,19 @@ function About() {
                     <h2 className="article-header">Breif History . . .</h2>
                     <hr/>
                     <p>
-                      Hello! My name is Gustavo Muratalla Jr. I been coding for a solid 5-6 years. I disembarked on my coding journey 
-                      when I was an incomming Frehsman in Dos Pueblos High School. I was inspired by a neighboorhood friend to pick up 
-                      coding since I had developed a passion for computers. I started out taking the "Intro to Computer Science" course 
-                      first to see what I could learn but after a the first semester I found that my knoweldge and skills where already t
-                      o advance for the class but my teacher recommended me to finish the course and get the credits. So I followed 
-                      through. 
+                      Hello! My name is Gustavo Muratalla Jr. I have been coding for a solid 5-6 years. 
+                      I disembarked on my coding journey when I was an incoming Freshman in Dos Pueblos High School. 
+                      I was inspired by a neighborhood friend to pick up coding since I had developed a passion for computers. 
+                      I started out taking the "Intro to Computer Science" course first to see what I could learn but after the first semester, 
+                      I found that my knowledge and skills were already too advanced for the class but my teacher recommended I finish the course and get the credits. 
+                      So I followed through.
                     </p>
                     <p>
-                      In my Sophmore year of High School I had decided to take the "AP Computer Science" and ever since then, I fell in love
-                      with coding. Even thought this course focused on programing language Java. I learn most of the major concepts of "OOP" 
-                      ( or Object Orient Programming). From their I decide to expand my knoweldge and been learning how to program in C#, C++, 
+                      In my Sophomore year of High School, I had decided to take the "AP Computer Science" and ever since then, I fell in love with coding. 
+                      Even though this course focused on the programing language Java. I learn most of the major concepts of "OOP" 
+                      ( or Object Orient Programming). From there, I decided to expand my knowledge and have been learning how to program in C#, C++, 
                       JavaScript, Python, and a bunch of other Programming Languages. 
-                      I also have dabled with some other frame works like Laravel, ReactJs, Handlerbars and Jekyll. Feel Free to check out my projects 
+                      I also have dabbled with some other frameworks like Laravel, ReactJs, Handlebars, and Jekyll. Feel Free to check out my projects  
                       on <a className="link-light" href="https://github.com/teku-guy"  rel="noreferrer" target="_blank"> my github.</a>
                     </p>
                   </article>
