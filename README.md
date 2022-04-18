@@ -4,7 +4,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Just a basic template for a starter protfolio page. Its easy to update all you need to do to update the portfolio is change the ```src/portfolio-list.json```
 
-##Navigation
+## Navigation
 I styled this example as my current version of my portfolio as an example you can navigate through the Home, About, Work and Contacts pages which are located at the top of the portfolio page.
 
 ## Available Scripts
